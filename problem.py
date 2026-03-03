@@ -15,12 +15,25 @@
 #     print("age is in valid ")
 
 
-age =int(input("tell me your age "))
-day = "mon day"
+# age =int(input("tell me your age "))
+# day = "mon day"
 
-price = 12 if age>=18 else 8
-if (day=="wednes day"):
-    price=price-2
-    print("your ticket price is =",price )
+# price = 12 if age>=18 else 8
+# if (day=="wednes day"):
+#     price=price-2
+#     print("your ticket price is =",price )
+# else:
+#     print("price is {}".format(price))
+
+
+marks = int(input("tell me your marks out if 100"))
+if marks in range(90,101):
+    print("your grade is A, grate job")
+elif marks in range(80,90):
+    print("your grade is B, nicely done ")
+elif marks in range(70,80):
+    print("your grade is C,good job")
+elif marks in range(60,70):
+    print("your grade is D,you can do better ")
 else:
-    print("price is {}".format(price))
+    print("your grade is F,you have to reapear the exam")
