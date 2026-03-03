@@ -26,14 +26,27 @@
 #     print("price is {}".format(price))
 
 
-marks = int(input("tell me your marks out if 100"))
-if marks in range(90,101):
-    print("your grade is A, grate job")
-elif marks in range(80,90):
-    print("your grade is B, nicely done ")
-elif marks in range(70,80):
-    print("your grade is C,good job")
-elif marks in range(60,70):
-    print("your grade is D,you can do better ")
-else:
-    print("your grade is F,you have to reapear the exam")
+# marks = int(input("tell me your marks out if 100"))
+# if (marks>100):
+#     print("your mark is in valid")
+# elif marks in range(90,101):
+#     print("your grade is A, grate job")
+# elif marks in range(80,90):
+#     print("your grade is B, nicely done ")
+# elif marks in range(70,80):
+#     print("your grade is C,good job")
+# elif marks in range(60,70):
+#     print("your grade is D,you can do better ")
+# else:
+#     print("your grade is F,you have to reapear the exam")
+
+
+number = int(input("give the number till which you want to add even  numbers "))
+sum =0
+for x in range(number+1):
+    if(x%2==0):
+        sum =sum+x
+    else:
+        continue
+
+print("sum of all even numbers till ",number," is ",sum)
