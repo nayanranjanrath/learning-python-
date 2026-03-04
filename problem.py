@@ -41,12 +41,21 @@
 #     print("your grade is F,you have to reapear the exam")
 
 
-number = int(input("give the number till which you want to add even  numbers "))
-sum =0
-for x in range(number+1):
-    if(x%2==0):
-        sum =sum+x
-    else:
-        continue
+# number = int(input("give the number till which you want to add even  numbers "))
+# sum =0
+# for x in range(number+1):
+#     if(x%2==0):
+#         sum =sum+x
+#     else:
+#         continue
 
-print("sum of all even numbers till ",number," is ",sum)
+# print("sum of all even numbers till ",number," is ",sum)
+
+
+# str="hello"
+# for x in str:
+#     if (str.count(x)==1):
+#         print("the character",x," is unique ")
+#     else:
+#         print("the character",x," is not unique ")
+
